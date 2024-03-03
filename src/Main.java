@@ -59,7 +59,6 @@ public class Main {
         var workTimeProPerson = 8;
         var workersAmount = workTime / workTimeProPerson;
         System.out.println("Всего работников в компании - " + workersAmount + " человек");
-
         workersAmount = workersAmount + 94;
         workTime = workTimeProPerson * workersAmount;
         System.out.println("Если в компании работает " + workersAmount + " человек, то всего " + workTime + " часов работы может быть поделено между сотрудниками");
